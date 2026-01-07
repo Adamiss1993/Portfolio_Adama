@@ -1,4 +1,4 @@
-#Accessibilité aux équipements
+# Accessibilité aux équipements
 
 ## Contexte et choix du sujet
 
