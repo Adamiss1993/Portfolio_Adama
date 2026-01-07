@@ -6,12 +6,12 @@ Le thème de l’accessibilité aux équipements au sein de Bordeaux Métropole 
 # Démarche méthodologique
 
 La démarche méthodologique s’est articulée autour de la conception et de la mise en œuvre de la base de données :
---•	Conception du Modèle Conceptuel de Données (MCD) et du Modèle Logique de Données (MLD) à l’aide du logiciel Looping ;
---•	Définition des entités, des relations et des cardinalités ;
---•	Implémentation du schéma relationnel dans PostgreSQL / PostGIS ;
---•	Mise en place des clés primaires, des contraintes d’unicité et des contraintes d’intégrité référentielle ;
---•	Création des index spatiaux afin d’optimiser les performances des requêtes géographiques ;
---•	Structuration et préparation des données à l’aide de requêtes SQL.
+#Conception du Modèle Conceptuel de Données (MCD) et du Modèle Logique de Données (MLD) à l’aide du logiciel Looping ;
+#•	Définition des entités, des relations et des cardinalités ;
+#•	Implémentation du schéma relationnel dans PostgreSQL / PostGIS ;
+#•	Mise en place des clés primaires, des contraintes d’unicité et des contraintes d’intégrité référentielle ;
+#•	Création des index spatiaux afin d’optimiser les performances des requêtes géographiques ;
+#•	Structuration et préparation des données à l’aide de requêtes SQL.
 Cette phase vise principalement à garantir la cohérence, la robustesse et l’efficacité de la base de données.
 
 
