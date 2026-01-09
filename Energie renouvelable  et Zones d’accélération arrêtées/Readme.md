@@ -1,1 +1,3 @@
+Les zones publiées ici ne sont valides au sens administratif du terme, au titre de l'article L. 141-5-3 du code de l'énergie, que lorsqu’elles ont fait l’objet d’un acte préfectoral qui les arrête. Avant toute utilisation de ces zonages, l’utilisateur est invité à vérifier auprès des services préfectoraux territorialement compétents de l’existence de cet acte.
 
+Les éditeurs du site ne sauraient être tenus responsables en cas d’utilisation d’informations relatives aux ZAER publiées sur le site grand public du portail cartographique des EnR et qui n’auraient pas fait l’objet d’un arrêt préfectoral en bonne et due forme tel que prévu par l’article 15 de la loi du 10 mars 2023 relative à l’accélération de la production d’énergies renouvelables.
