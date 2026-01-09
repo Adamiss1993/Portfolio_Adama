@@ -1,3 +1,35 @@
-Les zones publiées ici ne sont valides au sens administratif du terme, au titre de l'article L. 141-5-3 du code de l'énergie, que lorsqu’elles ont fait l’objet d’un acte préfectoral qui les arrête. Avant toute utilisation de ces zonages, l’utilisateur est invité à vérifier auprès des services préfectoraux territorialement compétents de l’existence de cet acte.
+# Accessibilité aux équipements
 
-Les éditeurs du site ne sauraient être tenus responsables en cas d’utilisation d’informations relatives aux ZAER publiées sur le site grand public du portail cartographique des EnR et qui n’auraient pas fait l’objet d’un arrêt préfectoral en bonne et due forme tel que prévu par l’article 15 de la loi du 10 mars 2023 relative à l’accélération de la production d’énergies renouvelables.
+## Contexte et choix du sujet
+
+Ce projet a été réalisé dans le cadre d’un travail universitaire. Le sujet a été choisi volontairement afin de développer et de démontrer des compétences en conception et en implémentation de bases de données relationnelles, appliquées à des données spatiales.
+
+Le thème de l’accessibilité aux équipements au sein de Bordeaux Métropole a été retenu comme support d’étude. Les équipements considérés sont :
+- les collèges,
+- les écoles maternelles,
+- les pharmacies,
+- les médecins généralistes.
+
+## Démarche méthodologique
+
+La démarche méthodologique s’est articulée autour de la conception et de la mise en œuvre de la base de données :
+
+- Conception du Modèle Conceptuel de Données (MCD) et du Modèle Logique de Données (MLD) à l’aide du logiciel **Looping** ;
+- Définition des entités, des relations et des cardinalités ;
+- Implémentation du schéma relationnel dans PostgreSQL / PostGIS;
+- Mise en place des clés primaires, des contraintes d’unicité et des contraintes d’intégrité référentielle ;
+- Création des index spatiaux afin d’optimiser les performances des requêtes géographiques ;
+- Structuration et préparation des données à l’aide de requêtes SQL.
+
+Cette phase vise principalement à garantir la cohérence, la robustesse et l’efficacité de la base de données.
+
+## Analyse (approche exploratoire)
+
+L’analyse constitue une étape secondaire et exploratoire du projet. Elle a été initiée volontairement afin de tester et de valider le modèle de données, mais également pour se faire une première idée des enjeux liés à l’accessibilité aux équipements éducatifs et sanitaires.
+
+Cette phase d’analyse repose sur :
+- la réalisation de requêtes spatiales et statistiques simples ;
+- l’exploration de l’accessibilité aux différents types d’équipements (collèges, écoles maternelles, pharmacies, médecins généralistes) ;
+- la vérification du bon fonctionnement des relations entre les tables et de l’efficacité des index spatiaux.
+
+Les résultats obtenus ne visent pas une interprétation approfondie des dynamiques territoriales. Ils servent avant tout à illustrer la capacité de la base de données à supporter des analyses spatiales et à confirmer la pertinence du modèle relationnel mis en place.
