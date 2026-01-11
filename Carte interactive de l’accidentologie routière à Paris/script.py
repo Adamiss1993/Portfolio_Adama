@@ -1,5 +1,4 @@
-Python 3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)] on win32
-Enter "help" below or click "Help" above for more information.
+
 >>> # Carte interactive en clusters à partir d’un shapefile téléversé (EPSG:2154 → WGS84)
 ... # Environnement : Google Colab
 ... 
@@ -50,6 +49,7 @@ from google.colab import files
 files.download("carte_accidents_paris.html")
 
 print(gdf_accidents.columns)
+
 
 
 
