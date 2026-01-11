@@ -1,3 +1,4 @@
+## les lignes de code qui ont permis de réaliser ce travail
 
 >>> # Carte interactive en clusters à partir d’un shapefile téléversé (EPSG:2154 → WGS84)
 ... # Environnement : Google Colab
@@ -49,6 +50,7 @@ from google.colab import files
 files.download("carte_accidents_paris.html")
 
 print(gdf_accidents.columns)
+
 
 
 
